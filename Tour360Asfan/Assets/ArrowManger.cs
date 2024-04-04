@@ -16,7 +16,7 @@ public class ArrowManger : MonoBehaviour
 
         // For example, let's change the object's color
         GetComponent<Renderer>().material.color = Color.red;
-        datamangerf.changeImages(NextImageIndex);
+        datamangerf.changeImages(NextImageIndex-1);
 
     }
     private void Start()
