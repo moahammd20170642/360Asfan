@@ -5,6 +5,7 @@ using UnityEngine.Experimental.AI;
 
 public class hotspotTestManger : MonoBehaviour
 {
+   
     public int sphereIndex;
     public GameObject table;
     datamanger datamangerf;
@@ -22,7 +23,14 @@ public class hotspotTestManger : MonoBehaviour
         world.SetActive(true);
     }
 
-
+    private void Update()
+    {
+        if (Input.GetKey(KeyCode.Escape))
+        {
+            world.SetActive(false);
+            table.SetActive(true);
+        }
+    }
     private void Start()
     {
         datamangerf = GameObject.Find("DataManager").GetComponent<datamanger>();
