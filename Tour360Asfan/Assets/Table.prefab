@@ -119,6 +119,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sphereIndex: 1
+  table: {fileID: 0}
+  world: {fileID: 0}
 --- !u!1 &2128488194952046882
 GameObject:
   m_ObjectHideFlags: 0
@@ -238,6 +240,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sphereIndex: 6
+  table: {fileID: 0}
+  world: {fileID: 0}
 --- !u!1 &2790371527740973862
 GameObject:
   m_ObjectHideFlags: 0
@@ -357,6 +361,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sphereIndex: 7
+  table: {fileID: 0}
+  world: {fileID: 0}
 --- !u!1 &3144787035978328718
 GameObject:
   m_ObjectHideFlags: 0
@@ -476,6 +482,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sphereIndex: 3
+  table: {fileID: 0}
+  world: {fileID: 0}
 --- !u!1 &3628496987846247895
 GameObject:
   m_ObjectHideFlags: 0
@@ -595,6 +603,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sphereIndex: 2
+  table: {fileID: 0}
+  world: {fileID: 0}
 --- !u!1 &4601934493764754470
 GameObject:
   m_ObjectHideFlags: 0
@@ -714,6 +724,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sphereIndex: 8
+  table: {fileID: 0}
+  world: {fileID: 0}
 --- !u!1 &6288117782878322322
 GameObject:
   m_ObjectHideFlags: 0
@@ -833,6 +845,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sphereIndex: 5
+  table: {fileID: 0}
+  world: {fileID: 0}
 --- !u!1 &6554454691604563488
 GameObject:
   m_ObjectHideFlags: 0
@@ -986,6 +1000,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sphereIndex: 10
+  table: {fileID: 0}
+  world: {fileID: 0}
 --- !u!1 &6839605518372201302
 GameObject:
   m_ObjectHideFlags: 0
@@ -1105,6 +1121,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sphereIndex: 4
+  table: {fileID: 0}
+  world: {fileID: 0}
 --- !u!1 &7279666859851062810
 GameObject:
   m_ObjectHideFlags: 0
@@ -1224,6 +1242,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sphereIndex: 9
+  table: {fileID: 0}
+  world: {fileID: 0}
 --- !u!1 &8937091060080123006
 GameObject:
   m_ObjectHideFlags: 0
@@ -1385,6 +1405,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sphereIndex: 24
+  table: {fileID: 0}
+  world: {fileID: 0}
 --- !u!1001 &2386938851828474640
 PrefabInstance:
   m_ObjectHideFlags: 0
