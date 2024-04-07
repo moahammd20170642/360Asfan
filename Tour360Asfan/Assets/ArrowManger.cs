@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class ArrowManger : MonoBehaviour
 {
-    public int NextImageIndex ;
+    public int NextImageIndex;
     // Start is called before the first frame update
 
     datamanger datamangerf;
@@ -16,12 +16,13 @@ public class ArrowManger : MonoBehaviour
 
         // For example, let's change the object's color
         GetComponent<Renderer>().material.color = Color.red;
-        datamangerf.changeImages(NextImageIndex-1);
+        datamangerf.changeImages(NextImageIndex - 1);
 
     }
     private void Start()
     {
-     datamangerf = GameObject.Find("DataManager").GetComponent<datamanger>(); 
+        datamangerf = GameObject.Find("DataManager").GetComponent<datamanger>();
     }
 
+   
 }
