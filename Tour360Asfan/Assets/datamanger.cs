@@ -8,7 +8,7 @@ public class datamanger : MonoBehaviour
 
     public List<GameObject> Hotspots;
     public List<Texture2D> images;
-
+ 
     public MeshRenderer meshRenderer;
 
     public void changeImages(int index)
@@ -20,7 +20,8 @@ public class datamanger : MonoBehaviour
 
     private void Start()
     {
-
+        applyImages(0);
+        changeImages(0);
     }
 
 
