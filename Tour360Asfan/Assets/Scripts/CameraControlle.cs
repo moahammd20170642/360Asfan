@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class CameraControlle : MonoBehaviour
 {
+    
 
     public float zoomSpeedscroll = 15; // Adjust this to control the speed of zooming
     public float minFOV = 40;   // Minimum field of view
@@ -22,6 +23,11 @@ public class CameraControlle : MonoBehaviour
 
     }
 
+    public void ResetCamera()
+    {
+        transform.rotation = Quaternion.identity;   
+
+    }
     // Update is called once per frame
     void Update()
     {

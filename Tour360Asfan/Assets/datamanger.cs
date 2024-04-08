@@ -11,12 +11,12 @@ public class datamanger : MonoBehaviour
  
     public MeshRenderer meshRenderer;
 
+    public CameraControlle cameraControlle;
     public void changeImages(int index)
     {
         meshRenderer.material.mainTexture = images[index];
 
     }
-
 
     private void Start()
     {
@@ -24,7 +24,11 @@ public class datamanger : MonoBehaviour
         changeImages(0);
     }
 
+    public void Rcamera()
+    {
+        cameraControlle.ResetCamera();
 
+    }
     public void applyImages(int imageindex)
     {
         foreach (var hotspot in Hotspots)

@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class ArrowManger : MonoBehaviour
 {
+ 
     public int NextImageIndex;
     // Start is called before the first frame update
 
@@ -18,6 +19,7 @@ public class ArrowManger : MonoBehaviour
         GetComponent<Renderer>().material.color = Color.red;
         datamangerf.changeImages(NextImageIndex - 1);
         datamangerf.applyImages(NextImageIndex - 1);
+        datamangerf.Rcamera();
     }
     private void Start()
     {
