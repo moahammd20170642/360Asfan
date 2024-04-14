@@ -19,7 +19,7 @@ public class ArrowManger : MonoBehaviour
         GetComponent<Renderer>().material.color = Color.red;
         datamangerf.changeImages(NextImageIndex - 1);
         datamangerf.applyImages(NextImageIndex - 1);
-        datamangerf.Rcamera();
+        //datamangerf.Rcamera();
     }
     private void Start()
     {
