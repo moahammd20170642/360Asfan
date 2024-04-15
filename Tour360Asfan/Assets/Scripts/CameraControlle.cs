@@ -15,7 +15,7 @@ public class CameraControlle : MonoBehaviour
     private float zoomSpeed = 600f;
     private float zoomAmount = 0.0f;
     //private float rotationspeed = 100;
-    private float rotationspeed = 600;
+    public  float rotationspeed = 600;
 
     // Start is called before the first frame update
     void Start()

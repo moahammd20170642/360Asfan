@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class datamanger : MonoBehaviour
 {
+   
     public PositionsManaager pm;
 
     public List<GameObject> Hotspots;
@@ -13,6 +14,10 @@ public class datamanger : MonoBehaviour
     public MeshRenderer meshRenderer;
 
     public CameraControlle cameraControlle;
+
+
+    
+
     public void changeImages(int index)
     {
         meshRenderer.material.mainTexture = images[index];
