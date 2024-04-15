@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class datamanger : MonoBehaviour
 {
+    public PositionsManaager pm;
 
     public List<GameObject> Hotspots;
     public List<Texture2D> images;
@@ -15,7 +16,7 @@ public class datamanger : MonoBehaviour
     public void changeImages(int index)
     {
         meshRenderer.material.mainTexture = images[index];
-
+        pm.ActivatePoint(index);
     }
 
     private void Start()
