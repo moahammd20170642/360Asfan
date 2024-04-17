@@ -7,10 +7,10 @@ public class vidPlayer : MonoBehaviour
 {
     public string videofileName;
     // Start is called before the first frame update
-    private void OnEnable()
-    {
-        Playvideo();
-    }
+    //private void OnEnable()
+    //{
+    //    Playvideo();
+    //}
 
     // Update is called once per frame
 

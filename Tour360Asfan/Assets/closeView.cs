@@ -7,12 +7,17 @@ public class closeView : MonoBehaviour
 {
     private void OnMouseDown()
     {
-        GameObject parent = transform.parent.gameObject;
-        parent.SetActive(false);
-
-        if(this.tag== "VideoB")
+        if (this.tag != "VideoB")
         {
+            GameObject parent = transform.parent.gameObject;
+            parent.SetActive(false);
+        }
+
+        if (this.tag== "VideoB")
+        {
+            GameObject parent = transform.parent.gameObject;
             vidPlayer vp = parent.transform.GetChild(1).GetComponent<vidPlayer>();
+            parent.SetActive(false);
             vp.StopVideo();
         }
     }

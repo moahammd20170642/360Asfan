@@ -39,7 +39,7 @@ public class UIViewer : MonoBehaviour
             Debug.Log("playVideo");
             GameObject cube = transform.GetChild(0).gameObject;
             cube.SetActive(true);
-            vidPlayer vp = transform.GetChild(1).GetComponent<vidPlayer>();
+            vidPlayer vp = cube.transform.GetChild(1).GetComponent<vidPlayer>();
 
            vp.Playvideo();
         }
