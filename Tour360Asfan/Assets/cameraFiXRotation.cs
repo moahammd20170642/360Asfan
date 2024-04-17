@@ -10,12 +10,12 @@ public class cameraFiXRotation : MonoBehaviour
 
     //public bool itNeedsFix = false;
     public quaternion quaternion;
-    private void OnEnable()
-    {
-        //if (itNeedsFix)
-        //{
-           transformO.rotation = quaternion;
-        //}
+    //private void OnEnable()
+    //{
+    //    //if (itNeedsFix)
+    //    //{
+    //       transformO.rotation = quaternion;
+    //    //}
         
-    }
+    //}
 }

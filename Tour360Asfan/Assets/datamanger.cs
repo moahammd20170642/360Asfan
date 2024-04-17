@@ -26,8 +26,8 @@ public class datamanger : MonoBehaviour
 
     private void Start()
     {
-        applyImages(0);
-        changeImages(0);
+        applyImages(24);
+        changeImages(24);
     }
 
     public void Rcamera()
