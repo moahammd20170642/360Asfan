@@ -18,7 +18,7 @@ public class datamanger : MonoBehaviour
     public CameraControlle cameraControlle;
 
     public  int currentIndex = 0;
-
+    
     public void changeImages(int index)
     {
         currentIndex = index; // Update the current index
