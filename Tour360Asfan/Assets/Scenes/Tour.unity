@@ -461,12 +461,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   transformO: {fileID: 961397547}
-  quaternion:
-    value:
-      x: 0
-      y: 0
-      z: 0
-      w: 0
+  itNeedsFix: 0
+  y_axix: 0
 --- !u!4 &53421309 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2130735542383087214, guid: ad53c1e047a2fb745b1c315289eb7d49, type: 3}
@@ -1563,18 +1559,6 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: UnityEngine.Video.VideoPlayer, UnityEngine
-        m_MethodName: Play
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &211020727
 GameObject:
@@ -3040,12 +3024,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   transformO: {fileID: 961397547}
-  quaternion:
-    value:
-      x: 0
-      y: 0
-      z: 0
-      w: 0
+  itNeedsFix: 0
+  y_axix: 0
 --- !u!1 &481216810
 GameObject:
   m_ObjectHideFlags: 0
@@ -3226,7 +3206,7 @@ Transform:
   m_GameObject: {fileID: 490077648}
   serializedVersion: 2
   m_LocalRotation: {x: 0.037154254, y: -0.8528389, z: 0.4800317, w: 0.20212646}
-  m_LocalPosition: {x: 0.00000021615287, y: 0.0000006667552, z: 0.00000029026722}
+  m_LocalPosition: {x: 0.00000012008492, y: 0.00000037041957, z: 0.0000001612596}
   m_LocalScale: {x: 0.27535895, y: 0.27535895, z: 0.27535895}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3633,12 +3613,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   transformO: {fileID: 961397547}
-  quaternion:
-    value:
-      x: 0
-      y: 0
-      z: 0
-      w: 0
+  itNeedsFix: 0
+  y_axix: 0
 --- !u!1 &519763709
 GameObject:
   m_ObjectHideFlags: 3
@@ -4239,12 +4215,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   transformO: {fileID: 961397547}
-  quaternion:
-    value:
-      x: 0
-      y: 0
-      z: 0
-      w: 0
+  itNeedsFix: 0
+  y_axix: 0
 --- !u!1 &581932318
 GameObject:
   m_ObjectHideFlags: 0
@@ -4356,12 +4328,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   transformO: {fileID: 961397547}
-  quaternion:
-    value:
-      x: 0
-      y: 0
-      z: 0
-      w: 0
+  itNeedsFix: 0
+  y_axix: 0
 --- !u!4 &671198407 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2130735542383087214, guid: ad53c1e047a2fb745b1c315289eb7d49, type: 3}
@@ -5616,12 +5584,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   transformO: {fileID: 961397547}
-  quaternion:
-    value:
-      x: 0
-      y: 0
-      z: 0
-      w: 0
+  itNeedsFix: 0
+  y_axix: 0
 --- !u!4 &817306874 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2130735542383087214, guid: ad53c1e047a2fb745b1c315289eb7d49, type: 3}
@@ -6377,12 +6341,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   transformO: {fileID: 961397547}
-  quaternion:
-    value:
-      x: 0
-      y: 0
-      z: 0
-      w: 0
+  itNeedsFix: 0
+  y_axix: 0
 --- !u!1 &916150489
 GameObject:
   m_ObjectHideFlags: 0
@@ -7070,12 +7030,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   transformO: {fileID: 961397547}
-  quaternion:
-    value:
-      x: 0
-      y: 0
-      z: 0
-      w: 0
+  itNeedsFix: 0
+  y_axix: 0
 --- !u!1 &1007044151
 GameObject:
   m_ObjectHideFlags: 0
@@ -8353,12 +8309,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   transformO: {fileID: 961397547}
-  quaternion:
-    value:
-      x: 0
-      y: 0
-      z: 0
-      w: 0
+  itNeedsFix: 0
+  y_axix: 0
 --- !u!1 &1102989618
 GameObject:
   m_ObjectHideFlags: 0
@@ -8662,12 +8614,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   transformO: {fileID: 961397547}
-  quaternion:
-    value:
-      x: 0
-      y: 0
-      z: 0
-      w: 0
+  itNeedsFix: 0
+  y_axix: 0
 --- !u!1 &1136531513
 GameObject:
   m_ObjectHideFlags: 0
@@ -10103,12 +10051,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   transformO: {fileID: 961397547}
-  quaternion:
-    value:
-      x: 0
-      y: 0
-      z: 0
-      w: 0
+  itNeedsFix: 1
+  y_axix: 0
 --- !u!1 &1310626654 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7902054129636186617, guid: 1190e8cd51fe2974a9ce5827ce4c646e, type: 3}
@@ -10453,12 +10397,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   transformO: {fileID: 961397547}
-  quaternion:
-    value:
-      x: 0
-      y: 0
-      z: 0
-      w: 0
+  itNeedsFix: 0
+  y_axix: 0
 --- !u!1 &1355257332
 GameObject:
   m_ObjectHideFlags: 0
@@ -11604,12 +11544,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   transformO: {fileID: 961397547}
-  quaternion:
-    value:
-      x: 0
-      y: 0
-      z: 0
-      w: 0
+  itNeedsFix: 0
+  y_axix: 0
 --- !u!1 &1486310174
 GameObject:
   m_ObjectHideFlags: 0
@@ -12224,12 +12160,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   transformO: {fileID: 961397547}
-  quaternion:
-    value:
-      x: 0
-      y: 0
-      z: 0
-      w: 0
+  itNeedsFix: 0
+  y_axix: 0
 --- !u!1 &1537417634
 GameObject:
   m_ObjectHideFlags: 0
@@ -12278,12 +12210,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   transformO: {fileID: 961397547}
-  quaternion:
-    value:
-      x: 0
-      y: 0
-      z: 0
-      w: 0
+  itNeedsFix: 0
+  y_axix: 0
 --- !u!1001 &1554657645
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12447,12 +12375,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   transformO: {fileID: 961397547}
-  quaternion:
-    value:
-      x: 0
-      y: 0
-      z: 0
-      w: 0
+  itNeedsFix: 0
+  y_axix: 0
 --- !u!1 &1575784432
 GameObject:
   m_ObjectHideFlags: 0
@@ -12693,12 +12617,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   transformO: {fileID: 961397547}
-  quaternion:
-    value:
-      x: 0
-      y: 0
-      z: 0
-      w: 0
+  itNeedsFix: 0
+  y_axix: 0
 --- !u!1 &1585240072
 GameObject:
   m_ObjectHideFlags: 0
@@ -12784,12 +12704,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   transformO: {fileID: 961397547}
-  quaternion:
-    value:
-      x: 0
-      y: 0
-      z: 0
-      w: 0
+  itNeedsFix: 0
+  y_axix: 0
 --- !u!1 &1601910564
 GameObject:
   m_ObjectHideFlags: 0
@@ -14022,12 +13938,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   transformO: {fileID: 961397547}
-  quaternion:
-    value:
-      x: 0
-      y: 0
-      z: 0
-      w: 0
+  itNeedsFix: 1
+  y_axix: 248
 --- !u!4 &1717432646 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2130735542383087214, guid: ad53c1e047a2fb745b1c315289eb7d49, type: 3}
@@ -14195,12 +14107,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   transformO: {fileID: 961397547}
-  quaternion:
-    value:
-      x: 0
-      y: 0
-      z: 0
-      w: 0
+  itNeedsFix: 0
+  y_axix: 0
 --- !u!1001 &1722670199
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14412,12 +14320,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   transformO: {fileID: 961397547}
-  quaternion:
-    value:
-      x: 0
-      y: 0
-      z: 0
-      w: 0
+  itNeedsFix: 0
+  y_axix: 0
 --- !u!1 &1739740649
 GameObject:
   m_ObjectHideFlags: 0
@@ -14465,12 +14369,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   transformO: {fileID: 961397547}
-  quaternion:
-    value:
-      x: 0
-      y: 0
-      z: 0
-      w: 0
+  itNeedsFix: 0
+  y_axix: 0
 --- !u!1001 &1743692801
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15523,12 +15423,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   transformO: {fileID: 961397547}
-  quaternion:
-    value:
-      x: 0
-      y: 0
-      z: 0
-      w: 0
+  itNeedsFix: 0
+  y_axix: 0
 --- !u!1 &1882829198
 GameObject:
   m_ObjectHideFlags: 0
@@ -16357,12 +16253,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   transformO: {fileID: 961397547}
-  quaternion:
-    value:
-      x: 0
-      y: 0
-      z: 0
-      w: 0
+  itNeedsFix: 0
+  y_axix: 0
 --- !u!1 &1976714409
 GameObject:
   m_ObjectHideFlags: 0
@@ -16464,12 +16356,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   transformO: {fileID: 961397547}
-  quaternion:
-    value:
-      x: 0
-      y: 0
-      z: 0
-      w: 0
+  itNeedsFix: 0
+  y_axix: 0
 --- !u!4 &2020197488 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2130735542383087214, guid: ad53c1e047a2fb745b1c315289eb7d49, type: 3}
