@@ -29,7 +29,7 @@ public class UIViewer : MonoBehaviour
     }
 
 
-    private void OnMouseDown()
+    private void OnMouseUp()
     {
         Debug.Log("hhhhhh");
         viewUI();

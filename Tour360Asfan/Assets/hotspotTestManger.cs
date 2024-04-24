@@ -10,7 +10,7 @@ public class hotspotTestManger : MonoBehaviour
     public GameObject table;
     datamanger datamangerf;
     public GameObject world;
-    void OnMouseDown()
+    void OnMouseUp()
     {
         // Perform your desired action here
         Debug.Log("Object Clicked!");

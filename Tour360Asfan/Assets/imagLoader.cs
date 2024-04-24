@@ -31,7 +31,9 @@ public class imagLoader : MonoBehaviour
         if (handle.Status == AsyncOperationStatus.Succeeded)
         {
             Texture2D image = handle.Result;
-            GetComponent<MeshRenderer>().material.mainTexture = image;
+            Sprite convertedSprite = Sprite.Create(image, new Rect(0, 0, image.width, image.height), Vector2.one * 0.5f);
+
+            GetComponent<SpriteRenderer>().sprite = convertedSprite;
            
         }
         else

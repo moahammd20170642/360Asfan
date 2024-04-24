@@ -8,10 +8,17 @@ public class ArrowManger : MonoBehaviour
  
     public int NextImageIndex;
     // Start is called before the first frame update
-
+    
     datamanger datamangerf;
-    void OnMouseDown()
+  
+    private void Start()
     {
+        datamangerf = GameObject.Find("DataManager").GetComponent<datamanger>();
+    }
+
+    private void OnMouseUp()
+    {
+
         // Perform your desired action here
         Debug.Log("Object Clicked!");
 
@@ -21,10 +28,4 @@ public class ArrowManger : MonoBehaviour
         datamangerf.applyImages(NextImageIndex - 1);
         //datamangerf.Rcamera();
     }
-    private void Start()
-    {
-        datamangerf = GameObject.Find("DataManager").GetComponent<datamanger>();
-    }
-
-   
 }

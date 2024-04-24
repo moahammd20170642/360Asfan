@@ -14,7 +14,7 @@ public class cameraFiXRotation : MonoBehaviour
     {
         if (itNeedsFix)
         {
-            transformO.eulerAngles = new Vector3(0, y_axix, 0);
+            transformO.eulerAngles = new Vector3(transformO.eulerAngles.x, y_axix, transformO.eulerAngles.z);
         }
 
     }
