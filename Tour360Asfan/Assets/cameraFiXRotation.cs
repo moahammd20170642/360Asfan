@@ -10,12 +10,12 @@ public class cameraFiXRotation : MonoBehaviour
 
     public bool itNeedsFix = false;
     public float y_axix;
-    private void OnEnable()
-    {
-        if (itNeedsFix)
-        {
-            transformO.eulerAngles = new Vector3(transformO.eulerAngles.x, y_axix, transformO.eulerAngles.z);
-        }
+    //private void OnEnable()
+    //{
+    //    if (itNeedsFix)
+    //    {
+    //        transformO.eulerAngles = new Vector3(transformO.eulerAngles.x, y_axix, transformO.eulerAngles.z);
+    //    }
 
-    }
+    //}
 }
