@@ -18,4 +18,12 @@ public class cameraFiXRotation : MonoBehaviour
     //    }
 
     //}
+
+    public void FixRotate()
+    {
+        if (itNeedsFix)
+        {
+            transformO.eulerAngles = new Vector3(transformO.eulerAngles.x, y_axix, transformO.eulerAngles.z);
+        }
+    }
 }
