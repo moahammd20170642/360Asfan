@@ -3233,7 +3233,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 490077648}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.03715426, y: -0.8528388, z: 0.4800318, w: 0.20212643}
+  m_LocalRotation: {x: 0.037154265, y: -0.85283875, z: 0.48003173, w: 0.20212646}
   m_LocalPosition: {x: 0.00000012008492, y: 0.00000037041957, z: 0.0000001612596}
   m_LocalScale: {x: 0.27535895, y: 0.27535895, z: 0.27535895}
   m_ConstrainProportionsScale: 0
@@ -3627,7 +3627,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &516719697
 Transform:
   m_ObjectHideFlags: 0
@@ -5084,6 +5084,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa3b61e798aa0994ca70032a483f6144, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  startPostions: 0
   currentIndex: 0
   images:
   - {fileID: 1555989546}
@@ -5628,7 +5629,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &815340276
 Transform:
   m_ObjectHideFlags: 0
@@ -8339,15 +8340,15 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1105253200}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.8300609, z: 0, w: 0.5576728}
-  m_LocalPosition: {x: -1.752, y: 0.09, z: 0.769}
-  m_LocalScale: {x: 0.056651138, y: 0.056651138, z: 0.056651138}
-  m_ConstrainProportionsScale: 0
+  m_LocalRotation: {x: 0, y: 0.83403033, z: 0, w: 0.5517187}
+  m_LocalPosition: {x: -0.96, y: 0.09, z: 0.564}
+  m_LocalScale: {x: 0.05, y: 0.05, z: 0.05}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 544192091}
   - {fileID: 2037050483}
   m_Father: {fileID: 815340276}
-  m_LocalEulerAnglesHint: {x: 0, y: 112.21, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 113.03, z: 0}
 --- !u!114 &1105253203
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10249,7 +10250,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: 4e0acaa284354e64bbae7ea720c70e54, type: 3}
+  m_Texture: {fileID: 2800000, guid: 2f051625f2d201d4dbab4365a111cf5e, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -17328,6 +17329,18 @@ MonoBehaviour:
       - m_Target: {fileID: 4134181857656342437}
         m_TargetAssemblyTypeName: hotspotTestManger, Assembly-CSharp
         m_MethodName: switchScenes
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 762669388}
+        m_TargetAssemblyTypeName: PositionsManaager, Assembly-CSharp
+        m_MethodName: DisaplePoints
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
